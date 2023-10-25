@@ -1,0 +1,66 @@
+{
+  "name": "@geip/integration-business-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf lib && node ./build/lib.js",
+    "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://geek.glodon.com/scm/geip/integration-business-components.git"
+  },
+  "author": "shangkk",
+  "license": "ISC",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "node-sass": "~4.14.1",
+    "sass-loader": "~8.0.2",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-cli-plugin-i18n": "^2.3.1",
+    "@intlify/vue-i18n-loader": "1.1.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "peerDependencies": {
+    "@geip/basic-components": "^1.0.0-alpha.21",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.17.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://packages.glodon.com/artifactory/api/npm/npm-geip-releases/"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "zh-CN": {
+      "button": {
+        "create": "新建",
+        "confirm": "确定",
+        "cancel": "取消",
+        "edit": "编辑",
+        "more": "更多",
+        "save": "保存",
+        "reset": "重置",
+        "detail": "详情",
+        "moveDown": "下移",
+        "delete": "删除",
+        "moveUp": "上移",
+        "moveTo": "移动到",
+        "createChild": "新建下级"
+      },
+      "no": "否",
+      "yes": "是",
+      "ruleMessage": {
+        "searchSelect": "@:placeholder.searchSelect{label}",
+        "input": "请输入{label}",
+        "inputOrSelect": "@:placeholder.inputOrSelect{label}",
+        "select": "@:placeholder.select{label}",
+        "upload": "请上传{label}",
+        "validator": "请输入有效的{label}"
+      },
+      "placeholder": {
+        "input": "请输入内容",
+        "searchSelect": "请搜索选择",
+        "inputOrSelect": "请输入或选择",
+        "select": "请选择"
+      },
+      "tips": "提示"
+  },
+  "en": {
+    "button":{
+      "create":"Add",
+      "confirm": "Yes",
+      "cancel":"Cancel",
+      "createTenants":"Add tenant",
+      "edit":"Edit",
+      "more": "More",
+      "save":"Save",
+      "reset": "Reset",
+      "delete":"Delete",
+      "moveDown": "Move down",
+      "detail":"Details",
+      "ok":"OK",
+      "moveUp": "Up",
+      "moveTo": "Move to",
+      "createChild": "-"
+    }
+  },
+  "sv-SE": {
+    "button":{
+      "cancel":"Avbryt",
+      "createTenants":"Lägg till tenant",
+      "edit":"Redigera",
+      "save":"Spara",
+      "create":"Lägg till",
+      "detail":"Detaljer",
+      "ok":"OK",
+      "delete":"Radera"
+    }
+  }
+}
